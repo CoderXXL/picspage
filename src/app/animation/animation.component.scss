@@ -1,0 +1,55 @@
+
+/* Background animation */
+@-webkit-keyframes Backgroundanimmation {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@-moz-keyframes Backgroundanimmation {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+@keyframes Backgroundanimmation { 
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
+}
+
+
+
+/* fadein animation */
+@-webkit-keyframes fadein {
+    from {
+        -webkit-filter: blur(10px);
+        opacity: 0;
+    }
+    to   {
+        -webkit-filter: blur(0px);
+        opacity: 1;
+
+    }
+}
+
+@-moz-keyframes fadein {
+    from { 
+        -webkit-filter: blur(10px);
+        opacity: 0;
+    }
+    to   {
+        -webkit-filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from { 
+        -webkit-filter: blur(10px);
+        opacity: 0;
+    }
+    to   {
+        -webkit-filter: blur(0px);
+        opacity: 1;
+    }
+}
+
