@@ -7,5 +7,5 @@ $message = $_POST["message"];
 
 echo "name:" . $name . "!";
 echo "email:" . $email . ".";
-echo "message:" $message;
+echo "message:" . $message;
 ?>
