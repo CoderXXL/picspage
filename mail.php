@@ -1,11 +1,11 @@
 <?php
+$empfaenger = "xxldario@live.de";
+$betreff = "Die Mail-Funktion";
+$from = "From: Vorname Nachname <absender@domain.de>";
+$text = "Hier lernt Ihr, wie man mit PHP Mails verschickt";
 
-$name = $_POST["name"];
-$email = $_POST["email"];
-$message = $_POST["message"];
+mail($empfaenger, $betreff, $text, $from);
+echo $empfaenger, $betreff, $text, $from;
 
 
-echo "name:" . $name . "!";
-echo "email:" . $email . ".";
-echo "message:" . $message;
 ?>
